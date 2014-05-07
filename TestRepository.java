@@ -12,6 +12,34 @@ pulic class TestRepository{
     this.platform = platform;
   }
   
+  public void setToday(java.util.Date today){
+    this.today = today;
+  }
+  public java.util.Date getToday(){
+    return this.today;
+  }
+  
+  public void setTestStatus(String testStatus){
+    this.testStatus = testStatus;
+  }
+  public String getTestStatus(){
+    return this.testStatus;
+  }
+  
+  public void setLocation(String location){
+    this.location = location;
+  }
+  public String getLocation(){
+    return this.location;
+  }
+  
+  public void setPlatform(String playform){
+    this.platform = playform;
+  }
+  public String getPlatform(){
+    return this.platform;
+  }
+  
   public String testRepo(String strInput){
     if(strInput!=null && strInput.length>0){
       testStatus = "Successful";
