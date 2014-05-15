@@ -1,6 +1,6 @@
 public class AddTwoNumber(){
-/*Two Linked List - NOT IN REVERSE ORDER!!!!!*/
-public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+	/*Two Linked List - NOT IN REVERSE ORDER!!!!!*/
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ArrayList<Integer> n1 = new ArrayList<Integer>();
 		ArrayList<Integer> n2 = new ArrayList<Integer>();
 		if(l1!=null && l2!=null){
@@ -62,4 +62,4 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 			return null;
 		}
 	}
-	}
+}
