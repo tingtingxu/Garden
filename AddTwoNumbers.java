@@ -1,5 +1,9 @@
 import datastructure.ListNode;
 public class AddTwoNumbers{
+	/* parameter: two linked list, the digits are in reversed order here
+	 * See another version of this question in AddTwoNumber.java
+	 * in which the two parameters are NOT in reversed order.
+	 */
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ArrayList<Integer> sum = new ArrayList<Integer>();
 		int carry = 0;
