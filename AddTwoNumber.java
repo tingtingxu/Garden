@@ -1,5 +1,5 @@
 import datastructure.ListNode;
-public class AddTwoNumber(){
+public class AddTwoNumber{
 	/*Two Linked List - NOT IN REVERSE ORDER!!!!!*/
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ArrayList<Integer> n1 = new ArrayList<Integer>();
