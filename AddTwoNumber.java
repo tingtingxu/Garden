@@ -1,3 +1,4 @@
+import datastructure.ListNode;
 public class AddTwoNumber(){
 	/*Two Linked List - NOT IN REVERSE ORDER!!!!!*/
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -48,9 +49,7 @@ public class AddTwoNumber(){
 
 				ListNode r1 = new ListNode(n2.get(n2.size()-1));
 				for(int index=n2.size()-2;index>=0;index--){
-					ListNode tempNode = new ListNode(Integer.parseInt(String.valueOf(n2.get(index))));
-					tempNode.next = r1;
-					r1 = tempNode;
+					r1 = new ListNode(Integer.parseInt(String.valueOf(n2.get(index))), r1);
 				}
 				return r1;
 			}
